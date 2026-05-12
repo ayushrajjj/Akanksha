@@ -20,7 +20,7 @@ export function Hero({ onStartConsultation, whatsappUrl }: HeroProps) {
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-sage-100 bg-white/65 px-4 py-2 text-sm font-medium text-forest-700 shadow-sm">
             <span className="h-2 w-2 rounded-full bg-sage-500" />
-            Freelance diet consultation for Vapi and online clients
+            Freelance diet consultation for online clients
           </div>
 
           <h1 className="mt-6 font-display text-3xl font-semibold tracking-tight text-forest-900 sm:text-5xl lg:text-6xl">
@@ -29,8 +29,8 @@ export function Hero({ onStartConsultation, whatsappUrl }: HeroProps) {
 
           <p className="mt-5 max-w-xl text-base leading-8 text-forest-700/85 sm:text-lg">
             Consult with Akanksha, B.Sc. Dietetics & Nutrition from Amity University Gurgaon, for
-            practical, personalized, and sustainable diet guidance for clients in Vapi and across
-            India.
+            practical, personalized, and sustainable diet guidance built around your lifestyle and
+            goals.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -56,7 +56,7 @@ export function Hero({ onStartConsultation, whatsappUrl }: HeroProps) {
               "Lifestyle-based guidance",
               "Warm, beginner-friendly support",
               "Online consultations available",
-              "Serving Vapi clients",
+              "Flexible contact options",
             ].map((item) => (
               <span
                 key={item}

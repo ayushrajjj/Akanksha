@@ -6,18 +6,16 @@ const siteUrl = "https://akanksha-chi.vercel.app";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Akanksha Nutrition | Dietician in Vapi",
+    default: "Akanksha Nutrition | Personalized Diet Consultation",
     template: "%s | Akanksha Nutrition",
   },
   description:
-    "Akanksha Nutrition offers personalized diet consultation by Akanksha, B.Sc. Dietetics & Nutrition from Amity University Gurgaon. Ideal for people searching for a dietician in Vapi, weight loss in Vapi, or weight gain in Vapi. Online consultations are available.",
+    "Akanksha Nutrition offers personalized diet consultation by Akanksha, B.Sc. Dietetics & Nutrition from Amity University Gurgaon. The website explains consultation plans, services, and a simple way to get started online.",
   keywords: [
-    "dietician in Vapi",
-    "best dietician in Vapi",
-    "weight loss in Vapi",
-    "weight gain in Vapi",
     "online diet consultation",
     "personalized diet plan",
+    "diet consultation",
+    "nutrition guidance",
   ],
   alternates: {
     canonical: siteUrl,
@@ -34,9 +32,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Akanksha Nutrition | Dietician in Vapi",
+    title: "Akanksha Nutrition | Personalized Diet Consultation",
     description:
-      "Akanksha Nutrition offers personalized diet consultation by Akanksha, B.Sc. Dietetics & Nutrition from Amity University Gurgaon. Ideal for people searching for a dietician in Vapi, weight loss in Vapi, or weight gain in Vapi.",
+      "Akanksha Nutrition offers personalized diet consultation by Akanksha, B.Sc. Dietetics & Nutrition from Amity University Gurgaon.",
     type: "website",
     url: siteUrl,
     siteName: "Akanksha Nutrition",
@@ -44,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Akanksha Nutrition | Dietician in Vapi",
+    title: "Akanksha Nutrition | Personalized Diet Consultation",
     description:
       "Personalized diet consultation by Akanksha, B.Sc. Dietetics & Nutrition from Amity University Gurgaon.",
   },
@@ -65,16 +63,6 @@ export default function RootLayout({
     description:
       "Personalized diet consultation by Akanksha, B.Sc. Dietetics & Nutrition from Amity University Gurgaon.",
     url: siteUrl,
-    areaServed: [
-      {
-        "@type": "City",
-        name: "Vapi",
-      },
-      {
-        "@type": "Country",
-        name: "India",
-      },
-    ],
     serviceType: "Diet consultation",
     hasOfferCatalog: {
       "@type": "OfferCatalog",
