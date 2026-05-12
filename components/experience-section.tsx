@@ -26,7 +26,7 @@ export function ExperienceSection() {
           <SectionHeading
             eyebrow="Experience"
             title="Early Experience, Personal Attention"
-            description="With 5+ clients guided, Akanksha focuses on giving each person personal attention instead of generic diet charts. Every recommendation is planned around the client’s goals, food habits, preferences, and lifestyle."
+            description="With 5+ clients guided, Akanksha focuses on giving each person personal attention instead of generic diet charts. Every recommendation is planned around the client's goals, food habits, preferences, and lifestyle."
           />
         </div>
         <motion.div

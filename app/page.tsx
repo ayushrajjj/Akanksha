@@ -14,6 +14,7 @@ import { FAQSection } from "@/components/faq-section";
 import { ContactSection } from "@/components/contact-section";
 import { Footer } from "@/components/footer";
 import { WhatsAppButton } from "@/components/whatsapp-button";
+import { MobileStickyCta } from "@/components/mobile-sticky-cta";
 import type { PlanDuration } from "@/lib/consultation";
 
 export default function HomePage() {
@@ -35,7 +36,7 @@ export default function HomePage() {
   }
 
   return (
-    <div className="min-h-screen overflow-x-hidden">
+    <div className="min-h-screen overflow-x-hidden pb-24 md:pb-0">
       <Navbar onStartConsultation={() => scrollToConsultation()} />
       <main>
         <Hero onStartConsultation={() => scrollToConsultation()} whatsappUrl={whatsappUrl} />
@@ -59,6 +60,7 @@ export default function HomePage() {
       </main>
       <Footer />
       <WhatsAppButton whatsappNumber={whatsappNumber} />
+      <MobileStickyCta onStartConsultation={() => scrollToConsultation()} />
     </div>
   );
 }

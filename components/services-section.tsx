@@ -30,17 +30,14 @@ export function ServicesSection() {
         className="mt-10 grid gap-4 sm:grid-cols-2 xl:grid-cols-3"
       >
         {services.map((service) => (
-          <div
-            key={service}
-            className="glass-card card-lift rounded-[1.7rem] p-5 shadow-soft"
-          >
+          <div key={service} className="glass-card card-lift rounded-[1.7rem] p-5 shadow-soft">
             <div className="flex items-start gap-4">
               <div className="mt-1 h-11 w-11 shrink-0 rounded-2xl bg-[linear-gradient(135deg,rgba(95,139,103,0.18),rgba(255,255,255,0.9))] shadow-sm" />
               <div>
                 <h3 className="text-base font-semibold text-forest-900">{service}</h3>
                 {service === "Medical-condition-aware planning" ? (
                   <p className="mt-2 text-sm leading-6 text-forest-700/80">
-                    This consultation supports wellness guidance and does not replace a doctor’s
+                    This consultation supports wellness guidance and does not replace a doctor's
                     advice or treatment plan.
                   </p>
                 ) : (

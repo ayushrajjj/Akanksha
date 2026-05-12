@@ -8,7 +8,8 @@ export function Footer() {
           <div>
             <p className="font-display text-xl font-semibold text-forest-900">Akanksha Nutrition</p>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-forest-700/85">
-              Personalized diet consultation for sustainable lifestyle changes.
+              Personalized diet consultation for sustainable lifestyle changes. Serving online
+              clients and people searching for a dietician in Vapi.
             </p>
           </div>
           <p className="text-sm leading-6 text-forest-700/75">

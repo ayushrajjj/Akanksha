@@ -81,7 +81,6 @@ export function ConsultationForm({ selectedDuration, whatsappNumber }: Consultat
 
   const stepOneEndpoint = process.env.NEXT_PUBLIC_FORMSPREE_STEP1_ENDPOINT;
   const stepTwoEndpoint = process.env.NEXT_PUBLIC_FORMSPREE_STEP2_ENDPOINT;
-  const tallyUrl = process.env.NEXT_PUBLIC_TALLY_FORM_URL?.trim() ?? "";
   const stepOneConfigured = isEndpointConfigured(stepOneEndpoint);
   const stepTwoConfigured = isEndpointConfigured(stepTwoEndpoint);
 
@@ -851,51 +850,6 @@ export function ConsultationForm({ selectedDuration, whatsappNumber }: Consultat
             </div>
           </div>
 
-          {tallyUrl ? (
-            <div className="glass-card rounded-[1.8rem] p-5 shadow-soft sm:p-6">
-              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sage-700">
-                Prefer a simple form view?
-              </p>
-              <p className="mt-3 text-sm leading-6 text-forest-700/85">
-                You can also use the optional Tally form below.
-              </p>
-              <div className="mt-4 overflow-hidden rounded-[1.4rem] border border-sage-100 bg-white">
-                <iframe
-                  src={tallyUrl}
-                  title="Tally form"
-                  className="h-[720px] w-full"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          ) : (
-            <div className="glass-card rounded-[1.8rem] p-5 shadow-soft sm:p-6">
-              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sage-700">
-                Tally fallback
-              </p>
-              <p className="mt-3 text-sm leading-6 text-forest-700/85">
-                If NEXT_PUBLIC_TALLY_FORM_URL is provided later, an optional embedded Tally form
-                will appear here. The custom two-step consultation form stays active either way.
-              </p>
-            </div>
-          )}
-
-          {process.env.NODE_ENV !== "production" ? (
-            <div className="glass-card rounded-[1.8rem] p-5 shadow-soft sm:p-6">
-              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sage-700">
-                Dev shortcut
-              </p>
-              <p className="mt-3 text-sm leading-6 text-forest-700/85">
-                Open Formspree login while developing to set the live submission endpoints.
-              </p>
-              <a
-                href="https://formspree.io/login"
-                className="mt-4 inline-flex rounded-full bg-forest-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-forest-800 focus-ring"
-              >
-                Open Formspree login
-              </a>
-            </div>
-          ) : null}
         </div>
       </div>
     </section>

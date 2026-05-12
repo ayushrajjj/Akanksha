@@ -11,7 +11,7 @@ export function AboutSection() {
           <SectionHeading
             eyebrow="About"
             title="Meet Akanksha"
-            description="Akanksha is a freelance diet consultant with a B.Sc. in Dietetics & Nutrition from Amity University Gurgaon. She has guided 5+ clients with practical, personalized diet consultation and helps people build realistic eating habits based on their lifestyle, food preferences, health background, and fitness goals."
+            description="Akanksha is a freelance diet consultant with a B.Sc. in Dietetics & Nutrition from Amity University Gurgaon. She has guided 5+ clients with practical, personalized diet consultation and helps people build realistic eating habits based on their lifestyle, food preferences, health background, and fitness goals. She works with online clients in Vapi and nearby areas."
           />
         </div>
 

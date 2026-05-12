@@ -15,7 +15,7 @@ export function ContactSection({ whatsappUrl }: ContactSectionProps) {
           <SectionHeading
             eyebrow="Contact"
             title="Start your diet consultation today"
-            description="Reach out through WhatsApp or submit the consultation form. Akanksha works with online clients."
+            description="Reach out through WhatsApp or submit the consultation form. Akanksha works with online clients in Vapi and across India."
           />
 
           <motion.div
@@ -56,7 +56,7 @@ export function ContactSection({ whatsappUrl }: ContactSectionProps) {
               </p>
               <p className="mt-2 text-lg font-semibold text-forest-900">Available for online consultations</p>
               <p className="mt-2 text-sm leading-6 text-forest-700/85">
-                Sessions are designed for remote clients and work well across locations.
+                Sessions are designed for remote clients, including people searching for a dietician in Vapi and nearby areas.
               </p>
             </div>
           </motion.div>
@@ -78,7 +78,8 @@ export function ContactSection({ whatsappUrl }: ContactSectionProps) {
             </p>
             <p className="mt-4 text-sm leading-7 text-forest-700/85">
               Akanksha Nutrition is built to help visitors understand the consultation process and
-              move into the form without friction.
+              move into the form without friction. It is designed for online consultations and
+              local discovery in Vapi.
             </p>
 
             <a

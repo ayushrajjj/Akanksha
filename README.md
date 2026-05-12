@@ -31,14 +31,12 @@ Set these values in `.env.local` for local development and in Vercel for product
 NEXT_PUBLIC_WHATSAPP_NUMBER=919006344687
 NEXT_PUBLIC_FORMSPREE_STEP1_ENDPOINT=your_formspree_step_1_endpoint
 NEXT_PUBLIC_FORMSPREE_STEP2_ENDPOINT=your_formspree_step_2_endpoint
-NEXT_PUBLIC_TALLY_FORM_URL=your_tally_form_url_optional
 ```
 
 Notes:
 
 - `NEXT_PUBLIC_WHATSAPP_NUMBER` is used to generate WhatsApp links.
 - `NEXT_PUBLIC_FORMSPREE_STEP1_ENDPOINT` and `NEXT_PUBLIC_FORMSPREE_STEP2_ENDPOINT` are optional. If empty, the site still works visually and the form shows a helpful note.
-- `NEXT_PUBLIC_TALLY_FORM_URL` is optional. If provided, an embedded Tally section appears below the custom form.
 - No secret keys are used or exposed in the app.
 
 ## 5. How to check submissions
@@ -48,12 +46,6 @@ Notes:
 1. Open your Formspree dashboard.
 2. Select the endpoint connected to Step 1 or Step 2.
 3. Review incoming submissions there.
-
-### Tally
-
-1. Open your Tally dashboard.
-2. Find the embedded form.
-3. Review collected responses in the Tally response list.
 
 ## 6. How to change content later
 

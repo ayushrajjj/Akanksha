@@ -14,6 +14,11 @@ const faqs = [
     answer: "Yes. Vegetarian, non-vegetarian, and eggs-only preferences can all be handled.",
   },
   {
+    question: "Do you work with clients in Vapi?",
+    answer:
+      "Yes. Akanksha offers online diet consultation for people in Vapi and nearby areas, as well as clients across India.",
+  },
+  {
     question: "Can I choose a 1-month, 3-month, or 6-month plan?",
     answer: "Yes. Those duration options are available in the consultation flow.",
   },
